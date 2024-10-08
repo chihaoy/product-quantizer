@@ -50,12 +50,13 @@ Need to download matlab so that we can convert fvecs and ivecs file to txt file(
 
 Unpack the siftsmall dataset:
 
-```bash
+```
 $ cd data
 $ cp /anvil/projects/x-cis220095/anns/data/sift/graph-d32* ./
 $ make parlayann_cpu
 $ cd bin/
 $ ./test_parlayann.sh
+'''
 
 
 
