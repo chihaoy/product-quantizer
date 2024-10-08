@@ -65,7 +65,7 @@ and recall.txt shows the recall rate for each vector(100 in total, last line sho
 
 
 
-This is all done in 
+cd into bin -> Release folder(make sure to adjust path for siftsmall data)
 ```
 ./pq -vc siftsmall_learn.fvecs -k 1024 -d 2.2.txt
 
