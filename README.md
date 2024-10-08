@@ -44,6 +44,15 @@ Wan-Lei Zhao
 
 
 clearer steps:
+
+Need to download matlab so that we can convert fvecs and ivecs file to txt file(used for comparison between generated results and grounded truth results)
+
+Unpack the siftsmall dataset:
+
+$ cd data; tar zxvf siftsmall.tar.gz
+
+
+This is all done in 
 ./pq -vc siftsmall_learn.fvecs -k 1024 -d 2.2.txt
 
 ./pq -tc pq-tc.conf -s siftsmall_learn.fvecs -k 256 -m 8 -o ivfpq -d 2.4.pq
@@ -51,3 +60,6 @@ clearer steps:
 ./pq -ec pq-ec.conf -i itm_pq_sift_base.txt -o ivfpq
 
 ./pq -nc pq-nc.conf -o pqa -q siftsmall_query.fvecs -d result.txt
+
+
+
