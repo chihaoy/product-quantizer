@@ -56,11 +56,11 @@ $ cp /anvil/projects/x-cis220095/anns/data/sift/graph-d32* ./
 $ make parlayann_cpu
 $ cd bin/
 $ ./test_parlayann.sh
-'''bash
 
 
 
-'''all operations can be done in bin -> Release folder ( pq-tc.conf,pq-ec.conf,pq-nc.conf and itm_pq_sift_base.tx are provided)
+
+all operations can be done in bin -> Release folder ( pq-tc.conf,pq-ec.conf,pq-nc.conf and itm_pq_sift_base.tx are provided)
 
 
 get.py:used to compare between txt file for generated files and txt file of grounded truth results(currently only support siftsmall)
