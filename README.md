@@ -56,7 +56,7 @@ $ cp /anvil/projects/x-cis220095/anns/data/sift/graph-d32* ./
 $ make parlayann_cpu
 $ cd bin/
 $ ./test_parlayann.sh
-
+'''bash
 
 
 
