@@ -41,3 +41,10 @@ This project is fully supported by Odd Concepts Inc. from Seoul, South Korea dur
 
 ### Author
 Wan-Lei Zhao
+
+
+clearer steps:
+./pq -vc siftsmall_learn.fvecs -k 1024 -d 2.2.txt
+./pq -tc pq-tc.conf -s siftsmall_learn.fvecs -k 256 -m 8 -o ivfpq -d 2.4.pq
+./pq -ec pq-ec.conf -i itm_pq_sift_base.txt -o ivfpq
+./pq -nc pq-nc.conf -o pqa -q siftsmall_query.fvecs -d result.txt
