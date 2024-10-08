@@ -61,7 +61,7 @@ All operations can be done in bin -> Release folder ( pq-tc.conf,pq-ec.conf,pq-n
 get.py:used to compare between txt file for generated files and txt file of grounded truth results(currently only support siftsmall)
 
 
-and recall.txt shows the recall rate for each vector(100 in total, last time shows overall recall rate, result.txt:from the NN search, correct.txt grounded truth(convert from ivecs file)
+and recall.txt shows the recall rate for each vector(100 in total, last line shows overall recall rate, result.txt:from the NN search, correct.txt grounded truth(convert from ivecs file)
 
 
 
