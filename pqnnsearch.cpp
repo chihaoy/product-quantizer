@@ -149,11 +149,14 @@ PQnnSearch::PQnnSearch(const char *conf, const char *dt_opt)
     {
         loaded = InvtFLLoader::load_ivfpq_InvtF(this->invertTable, this->offsets, this->itmMaps, this->vqNum, this->seg0);
         ptNum = loaded;
+        //print spmething
+        std::cout << "WWW" << loaded << "\n";
     }
     else
     {
         refPQCodes = InvtFLLoader::load_pq_Codes(this->itmMaps, this->imgNum, this->ftDim);
         ptNum = this->imgNum;
+        //std::cout << "WWW" << "\n";
     }
 
     cout<<"Referece size .................... "<<ptNum<<endl;
@@ -210,7 +213,7 @@ int PQnnSearch::init(const char *conf)
     }
     else
     {
-        topx = 8;
+        topx = 100;
     }
     cout<< topx << "\n";
 
