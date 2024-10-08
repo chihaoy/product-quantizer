@@ -42,6 +42,8 @@ This project is fully supported by Odd Concepts Inc. from Seoul, South Korea dur
 ### Author
 Wan-Lei Zhao
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 clearer steps:
 
@@ -75,6 +77,5 @@ cd into bin -> Release folder(make sure to adjust path for siftsmall data)
 
 ./pq -nc pq-nc.conf -o pqa -q siftsmall_query.fvecs -d result.txt
 ```
-
 
 
