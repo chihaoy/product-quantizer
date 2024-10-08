@@ -45,7 +45,7 @@ Wan-Lei Zhao
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-![#f03c15](clearer steps) `#f03c15`
+$${\color{red}Clearer Steps:}$$
 
 Need to download matlab so that we can convert fvecs and ivecs file to txt file(used for comparison between generated results and grounded truth results)
 
