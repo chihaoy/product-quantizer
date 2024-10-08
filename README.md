@@ -51,25 +51,22 @@ Need to download matlab so that we can convert fvecs and ivecs file to txt file(
 Unpack the siftsmall dataset:
 
 ```
-cd product-quantizer/
-make release
-cp bin/Release/pq $HOME/bin
+cd data
+wget ftp://ftp.irisa.fr/local/texmex/corpus/siftsmall.tar.gz
+tar zxvf siftsmall.tar.gz
 ```
+#All operations can be done in bin -> Release folder ( pq-tc.conf,pq-ec.conf,pq-nc.conf and itm_pq_sift_base.tx are provided)
 
 
+#get.py:used to compare between txt file for generated files and txt file of grounded truth results(currently only support siftsmall)
 
 
-all operations can be done in bin -> Release folder ( pq-tc.conf,pq-ec.conf,pq-nc.conf and itm_pq_sift_base.tx are provided)
-
-
-get.py:used to compare between txt file for generated files and txt file of grounded truth results(currently only support siftsmall)
-
-
-and recall.txt shows the recall rate for each vector(100 in total, last time shows overall recall rate, result.txt:from the NN search, correct.txt grounded truth(convert from ivecs file)
+#and recall.txt shows the recall rate for each vector(100 in total, last time shows overall recall rate, result.txt:from the NN search, correct.txt grounded truth(convert from ivecs file)
 
 
 
 This is all done in 
+```
 ./pq -vc siftsmall_learn.fvecs -k 1024 -d 2.2.txt
 
 ./pq -tc pq-tc.conf -s siftsmall_learn.fvecs -k 256 -m 8 -o ivfpq -d 2.4.pq
@@ -77,6 +74,7 @@ This is all done in
 ./pq -ec pq-ec.conf -i itm_pq_sift_base.txt -o ivfpq
 
 ./pq -nc pq-nc.conf -o pqa -q siftsmall_query.fvecs -d result.txt
+```
 
 
 
