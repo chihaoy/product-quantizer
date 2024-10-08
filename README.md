@@ -44,7 +44,7 @@ Wan-Lei Zhao
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-$${\color{red}##[Clearer]\space ##[Steps:]}$$
+$${\color{red}Clearer\space Steps:}$$
 
 Need to download matlab so that we can convert fvecs and ivecs file to txt file(used for comparison between generated results and grounded truth results)
 
