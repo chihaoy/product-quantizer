@@ -51,6 +51,8 @@ Unpack the siftsmall dataset:
 
 $ cd data; tar zxvf siftsmall.tar.gz
 
+all operations can be done in bin -> Release folder ( pq-tc.conf,pq-ec.conf,pq-nc.conf and itm_pq_sift_base.tx are provided)
+
 
 This is all done in 
 ./pq -vc siftsmall_learn.fvecs -k 1024 -d 2.2.txt
