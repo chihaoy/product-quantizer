@@ -1,0 +1,4 @@
+<item>
+vectab=/home/chy007/MODEL/bin/Release/siftsmall_base.fvecs
+pqctab=/home/chy007/MODEL/bin/Release/3.2.txt
+</item>

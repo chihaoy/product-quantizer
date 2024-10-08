@@ -213,7 +213,7 @@ int PQnnSearch::init(const char *conf)
     }
     else
     {
-        topx = 100;
+        topx = 64;
     }
     cout<< topx << "\n";
 
