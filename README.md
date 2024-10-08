@@ -50,7 +50,7 @@ Need to download matlab so that we can convert fvecs and ivecs file to txt file(
 
 Unpack the siftsmall dataset:
 
-
+'''bash
 $ cd data; tar zxvf siftsmall.tar.gz
 
 
