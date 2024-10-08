@@ -50,8 +50,12 @@ Need to download matlab so that we can convert fvecs and ivecs file to txt file(
 
 Unpack the siftsmall dataset:
 
-'''bash
-$ cd data; tar zxvf siftsmall.tar.gz
+```bash
+$ cd data
+$ cp /anvil/projects/x-cis220095/anns/data/sift/graph-d32* ./
+$ make parlayann_cpu
+$ cd bin/
+$ ./test_parlayann.sh
 
 
 all operations can be done in bin -> Release folder ( pq-tc.conf,pq-ec.conf,pq-nc.conf and itm_pq_sift_base.tx are provided)
